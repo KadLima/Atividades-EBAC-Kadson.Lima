@@ -1,3 +1,6 @@
+/**
+ * @author Kadson Lima
+ */
 public class Cliente {
 
     private int codigo;
