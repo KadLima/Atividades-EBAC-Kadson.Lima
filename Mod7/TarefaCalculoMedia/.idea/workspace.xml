@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea76737a-232b-449c-9a32-c89fdbbdfef3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Mod8/ExemplosMod8/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Mod8/ExemplosMod8/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Mod8/ExemplosMod8/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Mod8/ExemplosMod8/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Mod8/ExemplosMod8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Mod8/ExemplosMod8/Exemplos_Ebac.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Mod8/ExemplosMod8/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Mod8/ExemplosMod8/src/TestesAula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mod8/TarefaCalculoMedia/src/Atividade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mod8/TarefaCalculoMedia/src/Atividade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,29 +23,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2lItB8Pw7RBFYgosHrA9QzFIoka" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Atividade.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/kadso/OneDrive/Desktop/Atividades-EBAC-Kadson.Lima/Atividades-EBAC-Kadson.Lima/Mod7/TarefaCalculoMedia/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Atividade.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kadso/OneDrive/Desktop/Atividades-EBAC-Kadson.Lima/Atividades-EBAC-Kadson.Lima/Mod7/TarefaCalculoMedia/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kadso\OneDrive\Desktop\Atividades-EBAC-Kadson.Lima\Atividades-EBAC-Kadson.Lima\Mod8" />
@@ -88,6 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1724879281499</updated>
       <workItem from="1724879282606" duration="1701000" />
+      <workItem from="1724900187077" duration="306000" />
+      <workItem from="1724900783239" duration="34000" />
     </task>
     <servers />
   </component>
