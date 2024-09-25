@@ -1,7 +1,4 @@
-import Interfaces.CanetaEsferográfica;
-import Interfaces.Giz;
-import Interfaces.ICaneta;
-import Interfaces.Lapis;
+package Interfaces;
 
 /**
  * Created by Kadson Lima on 16/09/2024
