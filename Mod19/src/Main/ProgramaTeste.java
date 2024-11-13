@@ -15,7 +15,8 @@ public class ProgramaTeste {
 
         if(clazz.isAnnotationPresent(Tabela.class)){
             Tabela tabela = clazz.getAnnotation(Tabela.class);
-            System.out.println("Nome da tabela: " + tabela.nomeDaTabela());
+            String nomeDaTabela = tabela.nomeDaTabela();
+            System.out.println("Nome da tabela: " + nomeDaTabela);
         } else{
             System.out.println("Tabela Não Encontrada");
         }
