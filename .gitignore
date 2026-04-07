@@ -1,1 +1,7 @@
-/Mod14/Apache/CadastroCliente/target/
+# Compilação Java
+*.class
+out/
+
+# IntelliJ
+.idea/
+*.iml/Mod14/Apache/CadastroCliente/target/
