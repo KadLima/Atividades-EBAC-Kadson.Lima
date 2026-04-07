@@ -1,0 +1,37 @@
+EXERCÍCIO 4 - ANÁLISE DE COMPLEXIDADE
+
+1. Pilha (Pilha de inteiros)
+Implementação: Array simples com topo e tamanho.
+
+Métodos:
+- push(): Tempo O(1) - adiciona elemento no topo da pilha.
+- pop():  Tempo O(1) - remove elemento do topo da pilha.
+
+Espaço: O(n) - array de capacidade n.
+
+2. Fila (Fila de inteiros, circular)
+Implementação: Array circular com frente, tras e tamanho.
+
+Métodos:
+- enqueue(): O(1) - adiciona elemento no fim da fila.
+- dequeue(): O(1) - remove elemento da frente da fila.
+- front(): O(1) - retorna elemento da frente da fila.
+- rear():  O(1) - retorna elemento do fim da fila.
+
+Espaço: O(n) - array de capacidade n.
+
+3. Lista Encadeada (Lista de inteiros)
+Implementação: Lista simplesmente encadeada com nós (Node).
+
+Métodos:
+- push(): O(n) - percorre a lista até o último nó para adicionar.
+- pop(): O(n) - percorre até o penúltimo nó para remover o último.
+- insert(index, node): O(n) - percorre até o índice anterior para inserir.
+- remove(index): O(n) - percorre até o índice anterior para remover.
+- elementAt(index): O(n) - percorre até o índice desejado para retornar o nó.
+
+Espaço: O(n) - cada nó ocupa espaço proporcional ao número de elementos.
+
+Observações gerais:
+- Pilha e Fila: operações no topo/frente/fim são O(1) por usar array.
+- Lista encadeada: operações que envolvem posição arbitrária ou fim são O(n) por percorrer a lista.
