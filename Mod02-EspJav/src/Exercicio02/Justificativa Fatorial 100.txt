@@ -1,0 +1,7 @@
+Sobre calcular o fatorial de um número acima de 100, a resposta continua sendo que há limitações. Mesmo usando programação dinâmica, o tipo long não suporta armazenar o valor de 100!. Portanto, seria necessário usar BigInteger. Além disso, na abordagem top down ainda existe o uso de recursão, o que pode causar estouro de pilha para valores muito grandes. Já a abordagem bottom up evita esse problema, sendo mais adequada quando se trabalha com números maiores.
+
+Diferença entre a solução do exercício 2 e a do exercício 3
+
+A diferença principal está no tipo de problema resolvido. No exercício 2, o fatorial depende apenas do resultado imediatamente anterior. Por exemplo, 5! depende apenas de 4!. Isso faz com que o problema já seja naturalmente simples e linear, sem grande repetição de cálculos.
+
+No exercício 3, a sequência de Fibonacci possui sobreposição de subproblemas. Isso significa que a solução recursiva simples recalcula várias vezes os mesmos valores. Por esse motivo, a programação dinâmica traz muito mais vantagem para o Fibonacci do que para o fatorial. No caso do fatorial, a programação dinâmica funciona, mas seu benefício é menor. Já no Fibonacci, ela melhora drasticamente o desempenho.

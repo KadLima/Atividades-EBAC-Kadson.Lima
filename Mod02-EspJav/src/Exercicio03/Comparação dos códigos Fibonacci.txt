@@ -1,0 +1,7 @@
+No problema da sequência de Fibonacci, foram analisadas duas soluções diferentes: uma utilizando recursão simples e outra utilizando programação dinâmica.
+
+Na solução recursiva simples, cada chamada da função gera duas novas chamadas, uma para n - 1 e outra para n - 2. Isso faz com que vários valores sejam recalculados repetidamente. Por exemplo, ao calcular um termo maior da sequência, o algoritmo calcula os mesmos termos menores diversas vezes. Por esse motivo, a complexidade de tempo dessa abordagem é O(2^n), ou seja, exponencial.
+
+Já na solução com programação dinâmica, os resultados já calculados são armazenados em um vetor. Assim, quando um valor precisa ser usado novamente, ele não é recalculado, apenas recuperado da memória. Dessa forma, cada elemento da sequência é calculado apenas uma vez. Por isso, a complexidade de tempo dessa solução é O(n).
+
+Comparando as duas abordagens, conclui-se que a solução com programação dinâmica é melhor, pois evita cálculos repetidos e reduz drasticamente o tempo de execução. Enquanto a versão recursiva simples se torna muito lenta para valores maiores, a solução com programação dinâmica consegue calcular termos muito maiores de forma muito mais eficiente.
