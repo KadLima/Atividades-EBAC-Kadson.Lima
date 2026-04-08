@@ -1,0 +1,8 @@
+1 – private void somaNumeros(int a, int b, int c, int d, int e, int f)
+Essa assinatura fere o princípio de que um método não deve receber parâmetros em excesso. Muitos parâmetros dificultam a leitura, aumentam a chance de erro e tornam o método mais difícil de usar e manter. Em código limpo, o ideal é reduzir a quantidade de parâmetros ou agrupar informações relacionadas em um objeto.
+
+2 – private void oPaiTaOn()
+Essa assinatura fere o princípio da nomenclatura adequada. O nome do método não deixa claro o que ele faz, além de usar uma expressão informal e subjetiva. Em código limpo, nomes de métodos devem ser descritivos e objetivos, para que qualquer pessoa consiga entender sua função apenas lendo o nome.
+
+3 – private double checaSaldoEAtualiza(long userId, double value)
+Essa assinatura fere o princípio da responsabilidade única. O nome do método mostra que ele está fazendo mais de uma coisa: primeiro checa o saldo e depois atualiza alguma informação. Em código limpo, o ideal é que cada método tenha uma única responsabilidade, pois isso facilita o entendimento, os testes e a manutenção do código.

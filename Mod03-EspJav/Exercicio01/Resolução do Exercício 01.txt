@@ -1,0 +1,10 @@
+Os princípios de código limpo são importantes porque ajudam o código a ficar mais fácil de entender, manter e corrigir. Quando um código está limpo, qualquer pessoa que leia consegue compreender melhor o que foi feito, inclusive o próprio desenvolvedor no futuro.
+
+1 – Usar nomenclatura adequada
+Usar nomes adequados é importante porque o nome de variáveis, métodos, classes e outros elementos deve deixar claro o que eles representam ou fazem. Quando um nome é bem escolhido, o código praticamente se explica sozinho, sem precisar de muitos comentários. Isso facilita a leitura, evita confusão e reduz a chance de erros. Já nomes ruins ou genéricos dificultam o entendimento e tornam a manutenção mais complicada.
+
+2 – Resolver os problemas na causa raiz
+Resolver os problemas na causa raiz é importante porque corrigir apenas o efeito do erro não garante que ele não volte a acontecer. Quando o programador identifica a verdadeira origem do problema e a corrige, o sistema fica mais confiável e estável. Esse princípio também evita retrabalho, já que não adianta fazer ajustes superficiais se o motivo real do erro continua no código.
+
+3 – Seguir a política do escoteiro
+A política do escoteiro diz que devemos sempre deixar o código melhor do que encontramos. Esse princípio é importante porque incentiva melhorias contínuas no sistema, mesmo que sejam pequenas, como renomear uma variável, organizar melhor um método ou remover trechos desnecessários. Com isso, o código vai ficando mais limpo e mais fácil de manter ao longo do tempo, em vez de acumular problemas e ficar cada vez mais confuso.
