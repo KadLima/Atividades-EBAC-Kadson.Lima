@@ -1,0 +1,42 @@
+Monólitos
+
+Vantagens
+
+1. Consistência
+Em sistemas monolíticos, todos os componentes estão dentro da mesma aplicação e geralmente utilizam um único banco de dados. Isso facilita garantir consistência dos dados, pois as operações são realizadas de forma centralizada, sem necessidade de comunicação entre múltiplos serviços.
+
+2. Performance
+A comunicação dentro de um monólito ocorre de forma interna (chamadas diretas de método), o que é muito mais rápido do que chamadas em rede. Isso reduz latência e melhora o desempenho geral da aplicação.
+
+
+Desvantagens
+
+1. Escalabilidade
+No monólito, não é possível escalar apenas uma parte do sistema. Para lidar com mais carga, é necessário escalar toda a aplicação, o que pode ser ineficiente e mais caro.
+
+2. Disponibilidade / Estabilidade
+Como tudo está em um único sistema, uma falha em um módulo pode comprometer toda a aplicação. Isso reduz a disponibilidade e pode afetar a estabilidade geral do sistema.
+
+
+
+Microsserviços
+
+Vantagens
+
+1. Escalabilidade
+Microsserviços permitem escalar apenas partes específicas do sistema. Por exemplo, se um serviço está recebendo muitas requisições, apenas ele pode ser escalado, tornando o uso de recursos mais eficiente.
+
+2. Disponibilidade / Estabilidade
+Como os serviços são independentes, uma falha em um microsserviço não necessariamente derruba todo o sistema. Isso aumenta a disponibilidade e a resiliência da aplicação.
+
+
+Desvantagens
+
+1. Consistência
+Em microsserviços, cada serviço pode ter seu próprio banco de dados. Isso torna mais difícil manter consistência imediata entre os dados, sendo comum o uso de consistência eventual, que é mais complexa de gerenciar.
+
+2. Performance
+A comunicação entre microsserviços ocorre via rede (HTTP, APIs, mensageria), o que adiciona latência e pode impactar negativamente a performance em comparação com um monólito.
+
+
+Conclui-se, portanto, que arquiteturas monolíticas são mais simples e eficientes em termos de consistência e performance, sendo ideais para sistemas menores ou em fase inicial. Já os microsserviços oferecem maior escalabilidade e disponibilidade, sendo mais adequados para sistemas grandes e distribuídos, embora tragam maior complexidade.
