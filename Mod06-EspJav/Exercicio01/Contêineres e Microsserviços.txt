@@ -1,0 +1,3 @@
+Contêineres são uma forma de empacotar e executar software. Eles incluem tudo que a aplicação precisa para rodar (código, bibliotecas, dependências), garantindo que funcione da mesma maneira em qualquer ambiente. Ferramentas como Docker são usadas para criar e gerenciar esses contêineres.
+
+Microsserviços, por outro lado, são um estilo de arquitetura de software. Nessa abordagem, uma aplicação é dividida em vários serviços pequenos e independentes, cada um responsável por uma funcionalidade específica (por exemplo: autenticação, pagamentos, catálogo etc.). Esses serviços se comunicam entre si, geralmente via APIs.

@@ -1,0 +1,5 @@
+A entrega contínua e a implantação contínua são práticas relacionadas à automação do processo de levar software até o usuário, mas possuem uma diferença importante no momento final da liberação.
+
+Na entrega contínua, o objetivo é garantir que o sistema esteja sempre pronto para ser colocado em produção. Isso significa que, após passar por testes automatizados e validações, o software fica disponível para ser publicado, porém a decisão de implantar em produção ainda é manual. Ou seja, alguém da equipe (como um desenvolvedor ou responsável pelo projeto) escolhe quando fazer o deploy.
+
+Já na implantação contínua, o processo vai um passo além. Depois que o código passa por todas as etapas automatizadas (como testes e verificações), ele é automaticamente implantado em produção, sem necessidade de intervenção humana. Tudo acontece de forma automática e contínua.

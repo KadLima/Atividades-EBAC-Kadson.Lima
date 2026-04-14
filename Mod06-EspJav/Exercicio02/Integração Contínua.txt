@@ -1,0 +1,16 @@
+Para a integração contínua (CI) funcionar bem, a ideia central é integrar o código de todos os desenvolvedores o mais cedo e o mais frequentemente possível. Fazer merge frequente é essencial por alguns motivos:
+
+1. Para evitar conflitos grandes e difíceis
+Quanto mais tempo um desenvolvedor fica sem integrar seu código, mais o projeto principal muda. Isso aumenta muito a chance de conflitos complicados. Fazendo merge frequente, os conflitos são pequenos e mais fáceis de resolver.
+
+2. Detectar erros o mais rápido
+A CI roda testes automatizados a cada integração. Se você faz merge cedo, erros aparecem rapidamente, quando ainda é fácil entender e corrigir o problema.
+
+3. Manter o sistema sempre estável
+Com integrações frequentes, o código principal (geralmente a branch principal) está quase sempre em um estado funcional. Isso reduz o risco de “quebrar tudo” de uma vez só.
+
+4. Facilitar o trabalho em equipe
+Outros desenvolvedores conseguem ver e usar suas mudanças mais cedo. Isso evita retrabalho e melhora a colaboração.
+
+5. Reduzir o acúmulo de mudanças
+Grandes volumes de código integrados de uma só vez são mais difíceis de revisar, testar e validar. Pequenas mudanças frequentes são mais seguras.

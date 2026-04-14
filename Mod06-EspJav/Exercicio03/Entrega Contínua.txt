@@ -1,0 +1,16 @@
+Com o inuito de fazer com que a entrega contínua (CD) funcione de verdade, o sistema precisa ser capaz de ir para produção com frequência — às vezes várias vezes por dia — sem depender de verificações manuais demoradas. É aí que entra a importância de uma cobertura abrangente de testes.
+
+1. Confiança para liberar mudanças rapidamente
+Se os testes cobrem bem o sistema (unidade, integração, ponta a ponta), eles funcionam como uma “rede de segurança”. Cada alteração passa automaticamente por essa validação, dando confiança de que nada importante quebrou.
+
+2. Redução de risco
+Sem bons testes, cada deploy vira um risco alto. Com cobertura ampla, a chance de introduzir bugs críticos diminui bastante, porque problemas são detectados antes de chegar ao usuário.
+
+3. Automação do processo
+A entrega contínua depende de automação. Testes abrangentes permitem substituir validações manuais por automáticas, tornando o pipeline mais rápido e confiável.
+
+4. Feedback imediato
+Quando algo quebra, os testes falham rapidamente e mostram onde está o problema. Isso acelera a correção e evita que erros se acumulem.
+
+5. Evolução segura do sistema
+Com uma boa base de testes, os desenvolvedores conseguem refatorar e adicionar funcionalidades sem medo, pois sabem que qualquer regressão será detectada.
