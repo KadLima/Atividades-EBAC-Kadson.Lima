@@ -3,8 +3,8 @@ package com.example.cadastroDePedidos.service;
 import com.example.cadastroDePedidos.entity.Cliente;
 import com.example.cadastroDePedidos.entity.Pedido;
 import com.example.cadastroDePedidos.repository.ClienteRepository;
-import org.springframework.stereotype.Service;
 import com.example.cadastroDePedidos.repository.PedidoRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -39,7 +39,11 @@ public class ClienteService {
 
     public void deletar(Long id) {
 
+        System.out.println(">>> SERVICE: deletando cliente ID: " + id);
+
         List<Pedido> pedidos = pedidoRepository.findByClienteId(id);
+
+        System.out.println(">>> Pedidos encontrados: " + pedidos.size());
 
         for (Pedido p : pedidos) {
             p.setCliente(null);
@@ -48,5 +52,7 @@ public class ClienteService {
         pedidoRepository.saveAll(pedidos);
 
         repository.deleteById(id);
+
+        System.out.println(">>> Cliente removido do banco");
     }
 }

@@ -23,6 +23,6 @@ public class PedidoController {
 
     @GetMapping
     public List<Pedido> listar() {
-        return service.listar();
+        return service.listarTodos();
     }
 }

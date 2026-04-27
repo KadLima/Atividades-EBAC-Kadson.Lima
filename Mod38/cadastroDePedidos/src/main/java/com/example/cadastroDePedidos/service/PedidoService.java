@@ -32,24 +32,11 @@ public class PedidoService {
         return repository.save(pedido);
     }
 
-    public List<Pedido> listar() {
+    public List<Pedido> listarTodos() {
         return repository.findAll();
     }
 
     public void deletar(Long id) {
-
-        List<Pedido> pedidos = repository.findByProdutoId(id);
-
-        for (Pedido p : pedidos) {
-            p.setProduto(null);
-        }
-
-        repository.saveAll(pedidos);
-
         repository.deleteById(id);
-    }
-
-    public List<Pedido> listarTodos() {
-        return repository.findAll();
     }
 }

@@ -1,6 +1,8 @@
 package com.example.cadastroDePedidos.service;
 
+import com.example.cadastroDePedidos.entity.Pedido;
 import com.example.cadastroDePedidos.entity.Produto;
+import com.example.cadastroDePedidos.repository.PedidoRepository;
 import com.example.cadastroDePedidos.repository.ProdutoRepository;
 import org.springframework.stereotype.Service;
 
@@ -10,21 +12,15 @@ import java.util.List;
 public class ProdutoService {
 
     private final ProdutoRepository repository;
+    private final PedidoRepository pedidoRepository;
 
-    public ProdutoService(ProdutoRepository repository) {
+    public ProdutoService(ProdutoRepository repository,
+                          PedidoRepository pedidoRepository) {
         this.repository = repository;
+        this.pedidoRepository = pedidoRepository;
     }
 
     public Produto salvar(Produto produto) {
-
-        if (produto.getNome() == null || produto.getNome().isEmpty()) {
-            throw new RuntimeException("Nome é obrigatório");
-        }
-
-        if (produto.getPreco() == null || produto.getPreco() <= 0) {
-            throw new RuntimeException("Preço inválido");
-        }
-
         return repository.save(produto);
     }
 
@@ -33,6 +29,16 @@ public class ProdutoService {
     }
 
     public void deletar(Long id) {
+
+        // 🔥 Remove vínculo com pedidos (mantém histórico)
+        List<Pedido> pedidos = pedidoRepository.findByProdutoId(id);
+
+        for (Pedido p : pedidos) {
+            p.setProduto(null);
+        }
+
+        pedidoRepository.saveAll(pedidos);
+
         repository.deleteById(id);
     }
 }

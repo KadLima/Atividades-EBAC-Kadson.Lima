@@ -21,7 +21,7 @@ public class ProdutoBean {
 
     public String salvar() {
         service.salvar(produto);
-        produto = new Produto(); // limpa
+        produto = new Produto();
         return "produto.xhtml?faces-redirect=true";
     }
 
@@ -38,7 +38,8 @@ public class ProdutoBean {
     }
 
     public String excluir(Produto p) {
+        System.out.println(">>> EXCLUINDO PRODUTO ID: " + p.getId());
         service.deletar(p.getId());
-        return "produto.xhtml?faces-redirect=true";
+        return null;
     }
 }

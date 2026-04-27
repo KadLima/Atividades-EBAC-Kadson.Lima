@@ -53,27 +53,21 @@
 
     <h:dataTable value="#{pedidoBean.pedidos}" var="p" border="1">
 
-        <!-- CLIENTE -->
         <h:column>
             <f:facet name="header">Cliente</f:facet>
-            <h:outputText value="#{p.nomeCliente}" />
+            #{p.nomeCliente}
         </h:column>
 
-        <!-- PRODUTO -->
         <h:column>
             <f:facet name="header">Produto</f:facet>
-            <h:outputText value="#{p.nomeProduto}" />
+            #{p.nomeProduto}
         </h:column>
 
-        <!-- PREÇO -->
         <h:column>
             <f:facet name="header">Preço</f:facet>
-            <h:outputText value="#{p.precoProduto}">
-                <f:convertNumber type="currency" currencySymbol="R$" />
-            </h:outputText>
+            #{p.precoProduto}
         </h:column>
 
-        <!-- DATA -->
         <h:column>
             <f:facet name="header">Data</f:facet>
             <h:outputText value="#{p.data}">

@@ -72,8 +72,9 @@
             </h:commandButton>
 
             <h:commandButton value="Excluir"
-                             action="#{clienteBean.excluir(c)}"
-                             onclick="return confirm('Deseja excluir?');" />
+                             action="#{clienteBean.excluir(c)}">
+                <f:ajax execute="@this" render="@form"/>
+            </h:commandButton>
         </h:column>
 
     </h:dataTable>

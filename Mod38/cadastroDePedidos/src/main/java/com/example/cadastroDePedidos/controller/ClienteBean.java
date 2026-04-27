@@ -39,7 +39,8 @@ public class ClienteBean {
     }
 
     public String excluir(Cliente c) {
+        System.out.println(">>> EXCLUINDO CLIENTE ID: " + c.getId());
         service.deletar(c.getId());
-        return "cliente.xhtml?faces-redirect=true";
+        return null;
     }
 }
