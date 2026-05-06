@@ -1,0 +1,5 @@
+Os eventos de dados representam mudanças no estado de uma entidade dentro do sistema. Eles são utilizados para indicar que algo foi alterado, como a criação, atualização ou exclusão de um registro. Por exemplo, um evento “PedidoCriado” sinaliza que um novo pedido foi registrado no sistema e pode ser consumido por outros serviços que dependem dessa informação.
+
+Já os eventos de aplicação estão relacionados a ações ou processos executados pelo sistema, independentemente de mudanças diretas nos dados. Esses eventos descrevem algo que ocorreu como resultado de uma operação, como o envio de um e-mail ou o processamento de um pagamento. Diferentemente dos eventos de dados, eles têm foco na execução de atividades e não necessariamente na alteração de estado.
+
+A utilização de cada tipo de evento depende do contexto. Eventos de dados são ideais quando há necessidade de sincronizar informações entre diferentes serviços ou permitir que outros componentes reajam a mudanças de estado. Por outro lado, eventos de aplicação são mais adequados para orquestrar processos, registrar ações realizadas ou implementar fluxos de trabalho baseados em eventos.

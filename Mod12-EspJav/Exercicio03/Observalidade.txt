@@ -1,0 +1,7 @@
+A observabilidade em sistemas distribuídos refere-se à capacidade de compreender o comportamento interno de uma aplicação a partir dos dados que ela gera. Em um ambiente de microsserviços, essa característica é essencial para garantir a confiabilidade, o desempenho e a manutenção do sistema.
+
+Entre as métricas mais importantes que um microsserviço deve emitir, destaca-se a latência, que mede o tempo de resposta das requisições. Essa métrica é fundamental para avaliar a experiência do usuário e identificar possíveis gargalos de desempenho. Outra métrica relevante é a taxa de erro, que indica a proporção de requisições que falham. Esse indicador é essencial para detectar problemas na aplicação ou na infraestrutura.
+
+O throughput, ou taxa de requisições processadas por unidade de tempo, também é um fator importante, pois permite avaliar a capacidade do sistema de lidar com grandes volumes de acesso. Além disso, o monitoramento do uso de recursos, como CPU, memória e disco, é indispensável para evitar sobrecargas e garantir a estabilidade do ambiente.
+
+Por fim, logs e rastreamento distribuído desempenham papel fundamental na observabilidade. Eles permitem acompanhar o fluxo de execução das requisições e facilitam a identificação de falhas em sistemas complexos. Em conjunto, essas informações fornecem uma visão completa do comportamento do sistema, permitindo respostas rápidas a incidentes e melhorias contínuas na aplicação.
